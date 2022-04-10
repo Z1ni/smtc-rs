@@ -14,7 +14,6 @@ impl Ui {
     pub fn new() -> Ui {
         // Reserve two lines of space
         println!();
-        println!();
 
         // Move back to the first line
         print!("\x1B[1A");
